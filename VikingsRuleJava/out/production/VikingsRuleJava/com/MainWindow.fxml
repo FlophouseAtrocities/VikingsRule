@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MainWindowController">
+   <children>
+      <Pane layoutX="6.0" layoutY="60.0" prefHeight="788.0" prefWidth="788.0" style="-fx-background-color: rgb(39,39,39);">
+         <children>
+            <Canvas fx:id="canvas" height="788.0" width="788.0" />
+            <Pane layoutY="-55.0" prefHeight="45.0" prefWidth="788.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="30.0" layoutY="23.0" text="Ticks:" textFill="#bfbfbf" />
+                  <Label fx:id="tickLabel" layoutX="74.0" layoutY="23.0" prefHeight="17.0" prefWidth="90.0" text="0" textFill="#bfbfbf" />
+                  <Label fx:id="objectCountLabel" layoutX="74.0" layoutY="6.0" prefHeight="17.0" prefWidth="90.0" text="0" textFill="#bfbfbf" />
+                  <Label layoutX="14.0" layoutY="6.0" text="Objects:" textFill="#bfbfbf" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
